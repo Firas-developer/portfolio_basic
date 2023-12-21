@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 50px;
+}
+.section1,.section2,.section3,.section4,.section5{
+    margin-top: 20px;
+}
+.section1{
+    background-color: rgb(160, 208, 237);
+    padding: 30px;
+}
+.section1__name{
+    font-size: 50px;
+}
+.section1__role{
+    font-size: 25px;
+}
+.section1 a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.section2__description{
+    margin-top: 40px;
+}
+.section3{
+    display: inline-block;
+    height: 200px;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    vertical-align: top;
+}
+.section3 ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.section4{
+    display: inline-block;
+    height: 200px;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    vertical-align: top;
+}
+.section4 ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.section5{
+    background-color: rgb(4, 126, 142);
+    color: white;
+    padding: 30px;
+}
+.section5__social a{
+    text-decoration: none;
+    color: skyblue;
+}
+.form{
+    margin-top: 50px;
+}
+.form__input{
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 5px;
+}
+.form__textarea{
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 5px;
+}
+.form__submit{
+    background-color: black;
+    color: white ;
+    border: none;
+    padding: 6px;
+}
+.form__submit:hover{
+    background-color: skyblue;
+    color: black;
+}
